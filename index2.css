@@ -1,0 +1,21 @@
+.App {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  margin: 5rem;
+  padding: 0, 5rem;
+}
